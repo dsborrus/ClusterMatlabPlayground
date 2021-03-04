@@ -1,7 +1,3 @@
-# ClusterMatlabPlayground
- A set of scripts to work as an example way to run matlab in parallel on the W&M HPC
-
-
 This directory contains example shell and matlab scripts to run on the cluster. The idea is to run a single matlab script in parallel with a different input variable. This way, we can do large parameter studies very quickly.
 
 This work used "https://newhpc.wm.edu/doc/matlab/matlabscripting.html" as a tutorial.
