@@ -12,16 +12,8 @@ function [Out] = Analysis(In)
 end
 
 function [y] = some_big_calculation(x)
-	% This is our example BIG calculation. I'll do a small calculation of an known function, one we can recognize, 
-	% for examples sake (with some noise included for fun)
-
-	A = 1; 		% Wave amplitude
-	f = 1;		% Wave frequency (Hz)
-
-	u = 0; 		% standard deviation of gaussian noise
-	s = 0.1;	% standard deviation of gaussian noise
+	% This is our example BIG calculation.
 	
-	% The big calulcation!! Just a sine wave, with some noise
-	y = A*sin(2*pi*f*x) + (s*randn+u); 
+	y = x +0.05;
 
 end 	
